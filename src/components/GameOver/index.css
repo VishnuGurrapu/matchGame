@@ -1,0 +1,128 @@
+.Container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+.gameOverImg {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .Container {
+    width: 90%;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+.gameOverContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+@media (max-width: 767px) {
+  .gameOverContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    
+  }
+}
+.trophy {
+  width: 50%;
+  padding-top: 80px;
+}
+@media (max-width: 767px) {
+  .trophy {
+  width: 60%;
+  padding-top: 40px;
+}
+}
+.ScoreContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.score2 {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .score2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+}
+.Score2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .Score2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  background-color: #cf60c8;
+  gap: 10px;
+  outline: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px 2px 6px;
+    background-color: #cf60c8;
+    gap: 5px;
+    outline: none;
+    border-radius: 10px;
+  }
+}
+.PAicon {
+  height: 30px;
+}
+@media (max-width: 767px) {
+  .PAicon {
+    height: 20px;
+  }
+}
+.btnPara {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .btnPara {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

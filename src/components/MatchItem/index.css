@@ -1,0 +1,23 @@
+.project-item-container {
+  width: 23%;
+  margin-bottom: 2.66%;
+}
+@media screen and (min-width: 767px) {
+  .project-item-container {
+    width: 18%;
+    margin-bottom: 2.4%;
+  }
+}
+.project-item-image {
+  width: 100%;
+  
+}
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+
+}
